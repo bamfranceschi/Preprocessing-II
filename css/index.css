@@ -171,7 +171,8 @@ img {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 12%;
+  padding: 3.5% 5% 3.5% 5%;
+  border-bottom: 2px dashed #C0C0C0;
 }
 nav .companyName {
   color: #212529;
@@ -197,6 +198,23 @@ nav .links a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .funBusImg {
+  margin-left: 5%;
+  margin-right: 5%;
+  align-self: center;
+}
+header .intro {
+  margin-left: 12%;
+  margin-right: 12%;
+  align-self: center;
+  padding: 3% 0% 2% 0%;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -243,4 +261,14 @@ nav .links a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: #17A2B8;
+  width: 100%;
+  height: 45px;
+  color: white;
+  font-size: 2rem;
+  border-radius: 14px;
+  text-align: center;
+  padding-top: 5%;
 }
