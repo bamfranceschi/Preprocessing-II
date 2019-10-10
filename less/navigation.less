@@ -1,1 +1,45 @@
 // Navigation Styles here
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:3.5% 5% 3.5% 5%;
+    border-bottom: 2px dashed @navigation-border;
+
+    @media @mobile{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    .companyName{
+        color:@shark;
+
+
+        @media @mobile{
+            text-align: center;
+            padding: 4% 0%;
+        }
+
+    } //This closes companyName div
+
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+
+        @media @mobile{
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        a{
+            text-decoration: none;
+            align-self: center;
+            font-size: 1.75rem;
+            color:@shark;
+        } //This closes a 
+
+    } //This closes .links div
+
+}//This closes nav
